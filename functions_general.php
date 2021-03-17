@@ -1,7 +1,7 @@
 <?php
 
-/* If you want to use decentralized blockchain file storage like filebase.com you must make a little change in 
-/* assets/includes/functions_general.php on line 1367
+/* If you want to use decentralized blockchain file storage like filebase.com you must make a little change in */
+/* assets/includes/functions_general.php on line 1367 */
 
 else if ($wo['config']['amazone_s3'] == 1){
         if (empty($wo['config']['amazone_s3_key']) || empty($wo['config']['amazone_s3_s_key']) || empty($wo['config']['region']) || empty($wo['config']['bucket_name'])) {
