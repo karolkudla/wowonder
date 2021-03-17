@@ -9,7 +9,7 @@ else if ($wo['config']['amazone_s3'] == 1){
         }
         include_once('assets/libraries/s3/aws-autoloader.php');
         $s3 = new S3Client([
-		'version' 			=> 'latest',
+		'version' 	    => 'latest',
                 'region'            => 'us-east-1',
 		'signature_version' => 'v4',
 		'endpoint' => 'https://s3.filebase.com',
